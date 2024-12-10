@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "./php.h"
+#include "../includes/php.h"
 
 t_php	*ft_php_init(int argc, char **argv)
 {

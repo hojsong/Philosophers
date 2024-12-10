@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "./php.h"
+#include "../includes/php.h"
 
 void	ft_put_str_fd(char *str, int fd)
 {

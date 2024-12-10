@@ -2,8 +2,15 @@ CC = cc
 CFLAG = -Wall -Wextra -Werror
 NAME = philosopher_bonus
 HEAD = ./php.h
-SRCS = main_bonus.c process_bonus.c src1_bonus.c src_bonus.c\
-		src2_bonus.c src3_bonus.c thread1_bonus.c action_bonus.c src4_bonus.c
+SRCS = srcs/main_bonus.c \
+		srcs/process_bonus.c \
+		srcs/src_bonus.c\
+		srcs/src1_bonus.c \
+		srcs/src2_bonus.c \
+		srcs/src3_bonus.c \
+		srcs/src4_bonus.c \
+		srcs/thread1_bonus.c \
+		srcs/action_bonus.c \
 OBJS = $(SRCS:.c=.o)
 
 all : $(NAME)

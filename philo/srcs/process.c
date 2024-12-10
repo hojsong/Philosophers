@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "./php.h"
+#include "../includes/php.h"
 
 void	*ft_thread_process(void *pil)
 {

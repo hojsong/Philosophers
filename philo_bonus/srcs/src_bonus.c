@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "./php.h"
+#include "../includes/php.h"
 
 char	*ft_str_join(char *str1, char *str2)
 {

@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "./php.h"
+#include "../includes/php.h"
 
 int	main(int argc, char **argv)
 {

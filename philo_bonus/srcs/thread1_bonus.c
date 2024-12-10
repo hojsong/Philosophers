@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "./php.h"
+#include "../includes/php.h"
 #include <signal.h>
 
 void	ft_mutex_init(t_php *php)

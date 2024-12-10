@@ -6,11 +6,11 @@
 /*   By: hojsong <hojsong@student.42seoul.k>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/21 13:28:15 by hojsong           #+#    #+#             */
-/*   Updated: 2023/02/23 15:26:35 by hojsong          ###   ########.fr       */
+/*   Updated: 2023/02/23 15:11:05 by hojsong          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "php.h"
+#include "../includes/php.h"
 
 char	**php_split(char **av)
 {

@@ -2,8 +2,16 @@ CC = cc
 CFLAG = -Wall -Wextra -Werror
 FFLAG = -fsanitize=thread
 NAME = philosopher
-HEAD = ./php.h
-SRCS = main.c process.c src1.c src2.c src3.c thread1.c action.c src4.c
+HEAD = ./includes/php.h
+SRCS = srcs/main.c \
+		srcs/process.c \
+		srcs/src1.c \
+		srcs/src2.c \
+		srcs/src3.c \
+		srcs/src4.c \
+		srcs/thread1.c \
+		srcs/action.c \
+		
 OBJS = $(SRCS:.c=.o)
 
 all : $(NAME)
